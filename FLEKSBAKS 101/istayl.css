@@ -1,0 +1,67 @@
+body {
+    background-image: url(imp.jpg);
+    background-size: cover;
+    margin-left: 250px;
+    margin-right: 260px;
+    margin-top: 120px;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(126, 126, 126);
+    border-radius: 1rem;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.flex-item {
+    text-align: center;
+}
+
+.item-1 {
+    color: black;
+    font-size: large;
+    font-family: 'franklin gothic medium', Geneva, Tahoma, sans-serif;
+    margin-top:  85px;
+    padding: 10px;
+    margin-bottom: 90px;
+}
+
+.image {
+    background-image: url(logo.png);
+    height: 500px;
+    width: 510px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.item-2 {
+    margin-top: 20px;
+}
+
+.form {
+    width: 290px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(0, 34, 77);
+    color: white;
+}
+
+.form:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+}
+
+.submit {
+    background-color: rgb(0, 34, 77);
+    color: rgb(130, 118, 118);
+    width: 297px;
+    height: 39px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
